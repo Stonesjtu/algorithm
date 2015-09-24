@@ -1,9 +1,9 @@
-#include "stdafx.h"
-
-
-using namespace std;
-
-
+ #include "stdafx.h"
+// 
+// 
+// using namespace std;
+// 
+// 
 class Solution {
 public:
 	bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -20,7 +20,7 @@ public:
 			if (matrix[row][column] > target)
 				end = (begin + end) / 2;
 			else if (matrix[row][column] < target)
-				begin = (begin + end+1) / 2;
+				begin = (begin + end + 1) / 2;
 			else
 				return true;
 		}
@@ -28,19 +28,22 @@ public:
 
 	}
 };
-
-
-
-
-
-
-
-int main()
-{
-	Solution s;
-	vector<vector<int>> input = { {1,   3,  5,  7},
-	{10, 11, 16, 20 },
-	{23, 30, 34, 50}
-};
-	cout << s.searchMatrix(input,23);
-}
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// int main()
+// {
+// 	Solution s;
+// 	vector<vector<int>> input = { { 1,   4,  7, 11, 15 },
+// 	{ 2,   5,  8, 12, 19 },
+// 	{ 3,   6,  9, 16, 22 },
+// 	{ 10, 13, 14, 17, 24 },
+// 	{ 18, 21, 23, 26, 30 }
+// 	};
+// 	input = { { 1 } };
+// 	cout << s.searchMatrix(input, 20);
+// }

@@ -153,6 +153,7 @@
     <ClCompile Include="no1.cpp" />
     <ClCompile Include="no2.cpp" />
     <ClCompile Include="Search2DMatrix.cpp" />
+    <ClCompile Include="Search2DMatrixII.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
