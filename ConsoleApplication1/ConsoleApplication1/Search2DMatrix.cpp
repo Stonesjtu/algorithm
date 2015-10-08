@@ -35,12 +35,12 @@ public:
 
 
 
-int main()
-{
-	Solution s;
-	vector<vector<int>> input = { {1,   3,  5,  7},
-	{10, 11, 16, 20 },
-	{23, 30, 34, 50}
-};
-	cout << s.searchMatrix(input,23);
-}
+// int main()
+// {
+// 	Solution s;
+// 	vector<vector<int>> input = { {1,   3,  5,  7},
+// 	{10, 11, 16, 20 },
+// 	{23, 30, 34, 50}
+// };
+// 	cout << s.searchMatrix(input,23);
+// }

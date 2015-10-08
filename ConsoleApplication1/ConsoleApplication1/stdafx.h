@@ -12,6 +12,8 @@
 #include <algorithm>
 #include <vector>
 #include <iostream>
+#include <deque>
+
 
 using namespace std;
 

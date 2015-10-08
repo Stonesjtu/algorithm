@@ -150,8 +150,15 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AddNumbers.cpp" />
+    <ClCompile Include="LongestSubstring.cpp" />
+    <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
+    <ClCompile Include="medianTwoSortedArray.cpp" />
+    <ClCompile Include="MinimumSizeSubarray.cpp" />
     <ClCompile Include="no1.cpp" />
     <ClCompile Include="no2.cpp" />
+    <ClCompile Include="PartitionList.cpp" />
+    <ClCompile Include="PopulateNextRightPointer.cpp" />
     <ClCompile Include="Search2DMatrix.cpp" />
     <ClCompile Include="Search2DMatrixII.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -160,6 +167,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="restoreIPAddr.cpp" />
+    <ClCompile Include="Zigzag.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
