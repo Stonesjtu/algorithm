@@ -68,5 +68,17 @@
     <ClCompile Include="PopulateNextRightPointer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="UniquePathII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePathI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WordBreak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntranceExam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -14,7 +14,7 @@ public:
 			{
 				if (iter2 == nums.size())
 					if (iter1)
-						break;
+						;
 					else
 						return 0;
 				sum += nums.at(iter2++);
@@ -41,19 +41,3 @@ public:
 	}
 };
 
-
-int main()
-e{
-	Solution s;
-	vector<int> input = {
-		5,1,3 ,5,10,7,4,9,2,8 };
-	s.minSubArrayLen(15, input);
-	//cout << s.addTwoNumbers(new ListNode(5), new ListNode(5));
-
-	int* little = new int(0x544f4e45);
-	unsigned char * test = (unsigned char *)little;
-
-	cout << sizeof(little) << *(little) << endl << *test << "   " << *(test + 1) << endl;
-	system("pause");
-
-}

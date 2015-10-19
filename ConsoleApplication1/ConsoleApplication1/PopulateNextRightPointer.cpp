@@ -14,7 +14,7 @@ public:
 			return;
 		TreeLinkNode *first= root,*iter=root;
 		root->next = NULL;
-		while (iter->left)
+		while (first->left)
 		{
 			iter->left->next = iter->right;
 			if (iter->next)
@@ -26,6 +26,7 @@ public:
 			{
 				iter->right->next = NULL;
 				iter = first->left;
+				first = iter;
 			}
 
 		}

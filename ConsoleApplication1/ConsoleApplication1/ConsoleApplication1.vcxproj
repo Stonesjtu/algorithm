@@ -151,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AddNumbers.cpp" />
+    <ClCompile Include="EntranceExam.cpp" />
     <ClCompile Include="LongestSubstring.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="medianTwoSortedArray.cpp" />
@@ -168,6 +169,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="restoreIPAddr.cpp" />
+    <ClCompile Include="UniquePathI.cpp" />
+    <ClCompile Include="UniquePathII.cpp" />
+    <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="Zigzag.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
